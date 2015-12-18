@@ -1,3 +1,7 @@
+´Ógit ÏÂÁËMiniBecon,¿É±àÒëÍ¨¹ý
+SimpleiBeacon ÔÚ TXPOWERÉÏ ±àÒë³ö´í
+
+
 Texas Instruments, Inc.
 
 CC2540/41 Bluetooth Low Energy Software Development Kit
@@ -130,7 +134,7 @@ Bug Fixes:
 
 - The master’s host would accept invalid connection parameters requested 
   by the Slave, and would send back the Connection Parameter Update Response
-  with ‘parameters accepted’. The host now performs validation on these 
+  with ‘parameters accepted? The host now performs validation on these 
   parameters.
 
 - When coming out of sleep, the HCI_EXT_ExtendRfRangeCmd would override     
@@ -879,7 +883,7 @@ October 7, 2010
 
 Notices:
 
-- The Texas Instruments Bluetooth® low energy (BLE) software development kit 
+- The Texas Instruments Bluetooth?low energy (BLE) software development kit 
   includes all necessary software to get started on the development of 
   single-mode BLE applications using the CC2540 system-on-chip. It includes 
   object code with the BLE protocol stack, a sample project and applications 
