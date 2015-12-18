@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>3808454426</fileChecksum>
+  <configuration>
+    <name>CC2540-DK</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\app\ubl_ivec.s51</file>
+      <file>$PROJ_DIR$\..\app\ubl_exec.c</file>
+      <file>$PROJ_DIR$\..\app\ubl_exec.h</file>
+      <file>$PROJ_DIR$\ubl_link.xcl</file>
+      <file>$PROJ_DIR$\..\app\ubl_main.c</file>
+      <file>$PROJ_DIR$\..\hal\usb\library\usb_descriptor.h</file>
+      <file>$PROJ_DIR$\..\hal\usb\library\usb_descriptor_parser.c</file>
+      <file>$PROJ_DIR$\..\hal\usb\library\usb_descriptor_parser.h</file>
+      <file>$PROJ_DIR$\..\hal\usb\library\usb_framework.c</file>
+      <file>$PROJ_DIR$\..\hal\usb\library\usb_framework.h</file>
+      <file>$PROJ_DIR$\..\hal\usb\library\usb_framework_structs.h</file>
+      <file>$PROJ_DIR$\..\hal\usb\library\usb_interrupt.h</file>
+      <file>$PROJ_DIR$\..\hal\usb\class_msd\usb_msd_8051.lib</file>
+      <file>$PROJ_DIR$\..\hal\usb\library\usb_reg.h</file>
+      <file>$PROJ_DIR$\..\hal\usb\library\usb_standard_requests.c</file>
+      <file>$PROJ_DIR$\..\hal\usb\library\usb_standard_requests.h</file>
+      <file>$PROJ_DIR$\..\hal\usb\library\usb_suspend.h</file>
+      <file>$PROJ_DIR$\..\hal\usb\usb_board_cfg.h</file>
+      <file>$PROJ_DIR$\..\hal\usb\usb_interrupt.c</file>
+      <file>$PROJ_DIR$\..\hal\usb\usb_suspend.c</file>
+      <file>$PROJ_DIR$\..\hal\hal_board_cfg.h</file>
+      <file>$PROJ_DIR$\..\hal\hal_defs.h</file>
+      <file>$PROJ_DIR$\..\hal\hal_dma.h</file>
+      <file>$PROJ_DIR$\..\hal\hal_flash.c</file>
+      <file>$PROJ_DIR$\..\hal\hal_flash.h</file>
+      <file>$PROJ_DIR$\..\hal\hal_mcu.h</file>
+      <file>$PROJ_DIR$\..\hal\hal_types.h</file>
+      <file>$PROJ_DIR$\CC2540-DK\Obj\ubl_exec.r51</file>
+      <file>$PROJ_DIR$\CC2540-DK\Obj\usb_framework.r51</file>
+      <file>$PROJ_DIR$\CC2540-DK\Obj\usb_descriptor_parser.r51</file>
+      <file>$PROJ_DIR$\CC2540-DK\Obj\usb_framework.pbi</file>
+      <file>$PROJ_DIR$\CC2540-DK\Obj\usb_suspend.pbi</file>
+      <file>$PROJ_DIR$\CC2540-DK\Obj\ubl_ivec.r51</file>
+      <file>$PROJ_DIR$\CC2540-DK\Obj\ubl_main.pbi</file>
+      <file>$PROJ_DIR$\CC2540-DK\Obj\usb_descriptor_parser.pbi</file>
+      <file>$PROJ_DIR$\CC2540-DK\Obj\ubl_exec.pbi</file>
+      <file>$PROJ_DIR$\CC2540-DK\Obj\ubl_main.r51</file>
+      <file>$PROJ_DIR$\CC2540-DK\Obj\usb_standard_requests.r51</file>
+      <file>$PROJ_DIR$\CC2540-DK\Obj\hal_flash.r51</file>
+      <file>$PROJ_DIR$\CC2540-DK\Obj\usb_suspend.r51</file>
+      <file>$PROJ_DIR$\CC2540-DK\Obj\usb_interrupt.r51</file>
+      <file>$PROJ_DIR$\CC2540-DK\Obj\usb_standard_requests.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\ioCC2531.h</file>
+      <file>$PROJ_DIR$\..\hal\usb\class_msd\usb_firmware_library_headers.h</file>
+      <file>$PROJ_DIR$\CC2540-DK\Exe\ubl_usb_msd_8051-DK.hex</file>
+      <file>$PROJ_DIR$\CC2540-DK\Obj\usb_interrupt.pbi</file>
+      <file>$PROJ_DIR$\..\hal\usb\class_msd\usb_firmware_library_config.h</file>
+      <file>$TOOLKIT_DIR$\lib\clib\cl-pli-blxd-1e16x01.r51</file>
+      <file>$PROJ_DIR$\CC2540-DK\Obj\hal_flash.pbi</file>
+      <file>$PROJ_DIR$\CC2540-DK\Exe\UBL.d51</file>
+      <file>$PROJ_DIR$\CC2540-DK\Obj\UBL.pbd</file>
+      <file>$PROJ_DIR$\CC2540-DK\List\hal_flash.lst</file>
+      <file>$PROJ_DIR$\CC2540-DK\List\UBL.map</file>
+      <file>$PROJ_DIR$\CC2540-DK\List\hal_flash.s51</file>
+      <file>$PROJ_DIR$\ubl.xcl</file>
+      <file>$TOOLKIT_DIR$\inc\clib\string.h</file>
+      <file>$PROJ_DIR$\..\hal\hal_board.h</file>
+      <file>$TOOLKIT_DIR$\inc\ioCC2530.h</file>
+      <file>$TOOLKIT_DIR$\inc\clib\stddef.h</file>
+      <file>$TOOLKIT_DIR$\inc\clib\sysmac.h</file>
+      <file>$PROJ_DIR$\..\app\ubl_app.h</file>
+      <file>$PROJ_DIR$\..\hal\usb\class_msd\usb_msd.h</file>
+      <file>$PROJ_DIR$\..\hal\hal_aes.h</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 49 52 44</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\app\ubl_ivec.s51</name>
+      <outputs>
+        <tool>
+          <name>A8051</name>
+          <file> 32</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\app\ubl_exec.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 35</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 27</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 58 59 55 20 25 21 26 57 22 56 24 60 62 2 61</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\app\ubl_main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 33</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 36</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 20 25 21 26 57 22 56 24 60 62 2 61 11 10 46</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\hal\usb\library\usb_descriptor_parser.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 34</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 29</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 43 46 5 10 26 7 11 9 17 20 25 21 57 42 13 15 16 24 56 55 59</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\hal\usb\library\usb_framework.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 30</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 28</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 43 46 5 10 26 7 11 9 17 20 25 21 57 42 13 15 16</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\hal\usb\library\usb_standard_requests.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 41</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 37</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 43 46 5 10 26 7 11 9 17 20 25 21 57 42 13 15 16 56</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\hal\usb\usb_interrupt.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 45</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 40</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 43 46 5 10 26 7 11 9 17 20 25 21 57 42 13 15 16 24 56</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\hal\usb\usb_suspend.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 31</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 39</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 43 46 5 10 26 7 11 9 17 20 25 21 57 42 13 15 16 56</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\hal\hal_flash.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 48</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 53 51 38 27 36 29 28 40 37 39</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 20 25 21 26 57 22 56 24</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 20 25 21 26 57 22 56 24 1 58 59 55 60 62 2 61 4 11 10 46 6 43 5 7 9 17 42 13 15 16 8 18 14 19</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\CC2540-DK\Exe\UBL.d51</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 52 44</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 54 38 27 32 36 29 28 40 12 37 39 47</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>CC2540-Nano</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
